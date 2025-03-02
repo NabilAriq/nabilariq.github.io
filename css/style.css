@@ -9116,5 +9116,39 @@ ul.cat li a:hover {
 	}
   }
   
+  .button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Tengahkan secara horizontal */
+    width: fit-content; /* Sesuaikan dengan ukuran tombol */
+    margin: auto; /* Tengahkan dalam parent-nya */
+}
+
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #d0d0ff;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.btn:hover {
+    border-color: #000;
+}
+
+.btn.active {
+    background-color: #ff4433;
+    color: white;
+    border: none;
+}
 
 /*--- end of preloader ---*/
